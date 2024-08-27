@@ -1,3 +1,5 @@
+#jebdavis.github.io
+
 - 👋 Hi, I’m @jebdvis
 - 👀 I’m interested in expanding my general knowledge in comp sci and trying to connect it with my interest in engineering
 - 🌱 I’m currently learning Python
