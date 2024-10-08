@@ -1,0 +1,55 @@
+html {
+    background: url(cowtoolsirl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+#flex-1{
+    display:flex;
+    flex-direction: column;
+
+}
+
+#flex-2{
+    display:flex;
+    justify-content: center;
+    position:absolute;
+    right: 0;
+    left:0 ;
+    bottom: 0
+}
+
+#flex1box1{
+    background-color: red;
+    width: 175px;
+    text-align: center;
+    border-style: outset;
+}
+
+#flex1box2{
+    background-color: white;
+    width: 175px;
+    border-style: outset;
+    text-align: center
+}
+
+#flex1box3{
+    background-color: black;
+    width: 175px;
+    border-style: inset;
+    color: white;
+    text-align: center;
+}
+
+#flex2box1{
+    background-color: grey;
+    border-style: outset;
+    text-align: center;
+    justify-content: center;
+}
+
+#flex2box2{
+    background-color: grey;
+    border-style: outset;
+    text-align: center;
+}
