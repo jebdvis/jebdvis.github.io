@@ -28,12 +28,12 @@ for(let i = 0; i < images.length; i++){
 }
 
 
-btn.addEventListener(click, e =>{
-    if (btn.getAttribute("class") == "dark" ){
+btn.addEventListener("click", e =>{
+    if (btn.classList.contains("dark") ){
         btn.setAttribute("class", "light");
         btn.innerHTML = "Lighten";
         overlay.style.backgroundColor = "rgb(0 0 0 / 50%)";
-    }else{
+    }else if(btn.classList.contains("light")){
         btn.setAttribute("class", "dark");
         btn.innerHTML = "Darken";
         overlay.style.backgroundColor = "rgb(0 0 0 / 0%)";
