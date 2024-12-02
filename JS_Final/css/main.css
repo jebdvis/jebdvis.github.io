@@ -18,6 +18,11 @@ html, body{
     flex-wrap: wrap;
 }
 
+#desktop-flexbox a{
+    text-decoration: none;
+    color: black
+}
+
 .application{
     display: flex;
     flex-direction: column;

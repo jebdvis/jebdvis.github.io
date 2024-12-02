@@ -1,5 +1,11 @@
+body{
+    overflow: hidden;
+}
+
 .window-body{
     position: relative;
+    overflow-y: scroll;
+    max-height: 100vh;
 }
 
 #projects{
@@ -28,6 +34,15 @@
 
 .project img{
     width: 15vw;
+    padding-right: 3vw;
+}
+
+.subtitle{
+    font-size: 2.5vh;
+}
+
+.abstract{
+    font-size: 2vh;
 }
 
 #buttons{

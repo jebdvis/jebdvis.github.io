@@ -1,12 +1,12 @@
 {
     "projects": [{
-        "name": "Project 1",
-        "subdomain": "proj1",
-        "tags": ["project"],
-        "subtitle": "subtitle",
-        "collaborators": ["jeb"],
-        "abstract": "project jeb",
-        "description": "a project by jeb",
+        "name": "Colorado Symphony Poster Mailer",
+        "subdomain": "co_symph_poster",
+        "tags": ["project", "graphic"],
+        "subtitle": "Designing a hypothetical poster mailer for the Colorado Symphony in ATLS 2300",
+        "collaborators": [null],
+        "abstract": "A poster mailer that had to be primarily typographic, focusing on spacing and layout of the text containing the schedule for the Colorado Symphony. The main idea was to have a readable, informant poster while still being visually appealing.",
+        "description": "The second project for the ATLS 2300 class at the University of Colorado Boulder. Focusing on type in graphic design, we were tasked to create a poster mailer using schedule information from the Colorado Symphony. The main challenge was to fit the large amount of text in a readable and appealing fashion that could fit on a 10\"x16\" page.",
         "mainimg": "jeb.jpg",
         "video": ["False"],
         "images": ["img2.png"],
@@ -14,10 +14,6 @@
         "citations": ["jeb"]
     },{
         "name": "proj2"
-    },{
-        "name": "Project 3"
-    },{
-        "name": "Project 3"
     },{
         "name": "Project 3"
     }
