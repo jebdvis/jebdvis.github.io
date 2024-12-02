@@ -1,6 +1,6 @@
 @font-face {
     font-family: levi-windows;
-    src: url("fonts/Windows_Regular.ttf");
+    src: url("../fonts/Windows_Regular.ttf");
 }
 
 
@@ -34,9 +34,12 @@ html, body{
 
 .application p{
     margin: 2px;
-    padding-left: px;
     font-size: 14px;
     text-align: center;
+}
+
+.window{
+    max-height: 50%;
 }
 
 #task-bar{
@@ -55,7 +58,7 @@ html, body{
 
 
 #start-button{
-    background-image: url("icons/start_icon_test.png");
+    background-image: url("../icons/start_icon_test.png");
     background-repeat: no-repeat;
     background-size: 105%;
     background-position: -15% 50%;

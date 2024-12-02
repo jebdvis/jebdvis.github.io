@@ -1,0 +1,25 @@
+{
+    "projects": [{
+        "name": "Project 1",
+        "subdomain": "proj1",
+        "tags": ["project"],
+        "subtitle": "subtitle",
+        "collaborators": ["jeb"],
+        "abstract": "project jeb",
+        "description": "a project by jeb",
+        "mainimg": "jeb.jpg",
+        "video": ["False"],
+        "images": ["img2.png"],
+        "published": ["true", 1],
+        "citations": ["jeb"]
+    },{
+        "name": "proj2"
+    },{
+        "name": "Project 3"
+    },{
+        "name": "Project 3"
+    },{
+        "name": "Project 3"
+    }
+]
+}

@@ -11,7 +11,7 @@ function setClock(){
         ampm = "PM";
     }
 
-    const hour = hours % 12;
+    var hour = hours % 12;
 
     if (hour === 0){
         hour = 12
@@ -33,3 +33,5 @@ function setClock(){
 }
 
 window.addEventListener("load", setClock)
+
+
