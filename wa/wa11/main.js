@@ -4,7 +4,7 @@ const thumbBar = document.querySelector('.thumb-bar');
 const btn = document.querySelector('button');
 const overlay = document.querySelector('.overlay');
 
-const images = ["pic1.jpg","pic2.jpg","pic3.jpg","pic4.jpg","pic5.jpg"];
+const images = ["pic1.jpg","pic2.jpg","pic3.jpg","pic4.jpg"];
 
 const altText = {
     "pic1.jpg": "a close up of a blue eye",

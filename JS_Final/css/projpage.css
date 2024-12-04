@@ -1,0 +1,38 @@
+.window-body{
+    position: relative;
+    overflow-y: auto;
+    max-height: 100vh;
+}
+
+#slideshow{
+    text-align: center;
+}
+
+.full-img{
+    margin:auto
+}
+
+.displayed-img{
+    height:25vw;
+    border-style: solid;
+}
+
+
+.thumb-bar img {
+    display: inline-block;
+    height: 20vh;
+    cursor: pointer;
+    margin:auto;
+    border-style: solid;
+}
+
+
+  #project{
+    float: left;
+  }
+
+  #description{
+    font-size: 3vh;
+    margin: 10vw;
+    margin-top: 4vh;
+  }
