@@ -14,7 +14,7 @@ fetch('project.json')
 
 function parseData(data){
     for(let i = 0; i < data.projects.length; i++){
-    document.getElementById("projects").innerHTML += `<a href ="/JS_Final/projects/${data.projects[i].subdomain}.html">
+    document.getElementById("projects").innerHTML += `<a href ="/projects/${data.projects[i].subdomain}.html">
     <div class = "row project" id = "${data.projects[i].subdomain}">
         <div class = "projimg"><img src = "images/${data.projects[i].mainimg}"></div>
         <div class = "name"><h2>${data.projects[i].name}</h2><p class = "subtitle">${data.projects[i].subtitle}</p>
