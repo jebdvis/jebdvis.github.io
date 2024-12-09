@@ -1,0 +1,43 @@
+{
+    "projects": [{
+        "name": "Colorado Symphony Poster Mailer",
+        "subdomain": "co_symph_poster",
+        "tags": ["project", "graphic"],
+        "subtitle": "Designing a hypothetical poster mailer for the Colorado Symphony in ATLS 2300",
+        "collaborators": [null],
+        "abstract": "A poster mailer that had to be primarily typographic, focusing on spacing and layout of the text containing the schedule for the Colorado Symphony. The main idea was to have a readable, informant poster while still being visually appealing.",
+        "description": "The second project for the ATLS 2300 class at the University of Colorado Boulder. Focusing on type in graphic design, we were tasked to create a poster mailer using schedule information from the Colorado Symphony. The main challenge was to fit the large amount of text in a readable and appealing fashion that could fit on a 10\"x16\" page.",
+        "mainimg": "poster-mailer-front.png",
+        "video": ["False"],
+        "images": ["poster-mailer-front.png", "poster-mailer-back.png"],
+        "alts": ["front of the poster mailer", "back of the poster mailer"],
+        "citations": ["jeb"]
+    },{
+        "name": "Hydraulic Press Game",
+        "subdomain": "hydr_press_game",
+        "tags": ["project", "game"],
+        "subtitle": "Game Developed in a 2 week game jam for ATLS 4140",
+        "collaborators": [null],
+        "abstract": "Solo developed game created in a 2 week game jam that had a prompt of \"one button game\". Inspired by the fishing minigame from Stardew Valley. *Not currently out anywhere, but if you are interested in the project, please reach out!*",
+        "description": "For the second project of ATLS 4140, we were given 2 weeks to create a game that could only utilize one button with an optional theme of under pressure. After ideating on what I could do for the game, I landed on creating a game using the mechanics seen in the Stardew Valley fishing minigame, which happens to be one of my favorite things to do in the game. Of course, it couldn't just be about fishing, so I followed our optional prompt of \"under pressure\" and went with a game where you crush things in a hydraulic press. The mechanics of the main game were created fairly early in development and felt very close to the source material. For the things to crush, I used the SoftBody2D addon for Godot which implements softbodies that are easy to work with as the engine doesn't have native 2D softbodies.",
+        "mainimg": "hydr_press_1.png",
+        "video": ["False"],
+        "images": ["hydr_press_1.png", "hydr_press_2.png", "hydr_press_3.png"],
+        "alts": ["image of the hydraulic press game with an egg in the press", "image of the hydraulic press game with a piece of butter in the press", "image of the hydraulic press game with a fish in the press"],
+        "citations": ["jeb"]
+    },{
+        "name": "Colorado Symphony Website",
+        "subdomain": "co_symph_website",
+        "tags": ["project", "web"],
+        "subtitle": "Hypothetical design for a Colorady Symphony website created collaboatively in ATLS 2200",
+        "collaborators": [null],
+        "abstract": "Created an original design for a Colorado Symphony website that included schedule, contact, FAQ, and other general information about the Colorado Symphony. Main focus was on the use of CSS and the use of a navigation bar for the site.",
+        "description": "Working in a group of 4, we went through a design and development process using a kanban system. The process went through an initial planning period of gathering material we wanted to use as inspiration for the site, collecting colors and fonts for themeing and eventually creating a wirefram mockup of how we wanted the website to look. We then moved into developing the site, with my focus being mostly on the FAQ page layout and functionality as well as some themeing in CSS. The website is for the most part only HTML and CSS, though some accordion boxes on the FAQ page use basic JavaScript to aid in their functionality. The site can currently be found at <a href = \"https://eliasmontiel.github.io/css_project_one/main_page.html\">this site</a>.",
+        "mainimg": "co_symph_img1.png",
+        "video": ["False"],
+        "images": ["co_symph_img1.png", "co_symph_img2.png", "co_symph_img3.png"],
+        "alts": ["the main page of the website", "example of the accordion boxes on the FAQ page", "layout of the schedule page"],
+        "citations": ["jeb"]
+    }
+]
+}
